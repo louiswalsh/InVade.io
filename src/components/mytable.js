@@ -45,13 +45,13 @@ function MyTable (props) {
       { field: 'ratio', headerName: 'W/L Ratio', width: 130 },
       { field: 'wins', headerName: 'Wins', width: 130 },
       { field: 'losses', headerName: 'Losses', width: 130 },
-      { field: 'lp', headerName: 'LP', width: 60 },
+      { field: 'lp', headerName: 'LP', width: 130 },
 
     ];
 
 
 return (
-  <div style={{ height: 400, width: '100%' }}>
+  <div style={{ height: 400, width: '67%' }}>
     <DataGrid rows={invadeTeam} columns={columns} pageSize={5} checkboxSelection />
   </div>
   );
